@@ -20,7 +20,7 @@ jobs:
         distribution: 'adopt'
     - name: Build with Maven
       run: |
-        cd java/AutomationTools-Series/github-actions-demo
+        cd java/src/main
         mvn clean test
     - name: Test Reporter
       uses: dorny/test-reporter@v1.4.3
